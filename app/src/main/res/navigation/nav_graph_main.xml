@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_main"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="edu.umbc.coffee_art_final_exam.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_coffeeFragmentOne"
+            app:destination="@id/coffeeFragmentOne" />
+        <action
+            android:id="@+id/action_homeFragment_to_coffeeFragmentTwo"
+            app:destination="@id/coffeeFragmentTwo" />
+        <action
+            android:id="@+id/action_homeFragment_to_coffeeFragmentThree"
+            app:destination="@id/coffeeFragmentThree" />
+        <action
+            android:id="@+id/action_homeFragment_to_coffeeFragmentFour"
+            app:destination="@id/coffeeFragmentFour" />
+        <action
+            android:id="@+id/action_homeFragment_to_coffeeFragmentFive"
+            app:destination="@id/coffeeFragmentFive" />
+        <action
+            android:id="@+id/action_homeFragment_to_coffeeFragmentSix"
+            app:destination="@id/coffeeFragmentSix" />
+    </fragment>
+    <fragment
+        android:id="@+id/coffeeFragmentOne"
+        android:name="edu.umbc.coffee_art_final_exam.coffeeFragmentOne"
+        android:label="fragment_coffee_one"
+        tools:layout="@layout/fragment_coffee_one" />
+    <fragment
+        android:id="@+id/coffeeFragmentTwo"
+        android:name="edu.umbc.coffee_art_final_exam.coffeeFragmentTwo"
+        android:label="fragment_coffee_two"
+        tools:layout="@layout/fragment_coffee_two" />
+    <fragment
+        android:id="@+id/coffeeFragmentThree"
+        android:name="edu.umbc.coffee_art_final_exam.coffeeFragmentThree"
+        android:label="fragment_coffee_three"
+        tools:layout="@layout/fragment_coffee_three" />
+    <fragment
+        android:id="@+id/coffeeFragmentFour"
+        android:name="edu.umbc.coffee_art_final_exam.coffeeFragmentFour"
+        android:label="fragment_coffee_four"
+        tools:layout="@layout/fragment_coffee_four" />
+    <fragment
+        android:id="@+id/coffeeFragmentFive"
+        android:name="edu.umbc.coffee_art_final_exam.coffeeFragmentFive"
+        android:label="fragment_coffee_five"
+        tools:layout="@layout/fragment_coffee_five" />
+    <fragment
+        android:id="@+id/coffeeFragmentSix"
+        android:name="edu.umbc.coffee_art_final_exam.coffeeFragmentSix"
+        android:label="fragment_coffee_six"
+        tools:layout="@layout/fragment_coffee_six" />
+</navigation>
